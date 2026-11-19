@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Alison Martin — Interviewer, Literary Host & Event Moderator</title>
+<meta name="description" content="Alison Martin interviews authors, moderates festivals, chairs conferences and hosts events — after thirty years producing television's biggest names.">
+<link rel="canonical" href="https://alison-martin.com/">
+<meta name="google-site-verification" content="PvRi1t5oC_PPUyiOVpgkMZHBxREgJBAlFOrPOi4PIf0">
+<meta name="google-site-verification" content="N39uFDL6_Ev_cT_WBMaTXjzAPNUivfiRXB4UMrKNXWU">
+<meta name="theme-color" content="#1E2130">
+<!-- Social link preview -->
+<meta property="og:type" content="website">
+<meta property="og:title" content="Alison Martin — Interviewer, Literary Host & Event Moderator">
+<meta property="og:description" content="Curious conversations, confident interviews. Book Alison to interview authors, moderate festivals, chair conferences and host events.">
+<meta property="og:url" content="https://alison-martin.com/">
+<meta property="og:image" content="https://alison-martin.com/assets/img/og-card.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Alison Martin, celebrity interviewer, literary host and event moderator">
+<meta property="og:site_name" content="Alison Martin">
+<meta property="og:locale" content="en_GB">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://alison-martin.com/assets/img/og-card.jpg">
+<link rel="preload" as="image" href="assets/img/portrait-yard-lean.jpg">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Alison Martin",
+  "jobTitle": "Celebrity Interviewer, Literary Host & Event Moderator",
+  "description": "Alison Martin interviews authors, moderates festivals, chairs conferences and hosts events — after thirty years producing television's biggest names.",
+  "url": "https://alison-martin.com/",
+  "image": "https://alison-martin.com/assets/img/portrait-yard-closeup.jpg",
+  "email": "mailto:alison@alison-martin.com",
+  "award": [
+    "Harold Wincott Award for Personal Finance Journalism",
+    "Best Docu-Soap — National Reality TV Awards",
+    "Favourite Factual Show — TV Times Awards"
+  ],
+  "knowsAbout": ["Literary events", "Business", "Science", "Politics", "Popular culture"],
+  "sameAs": ["https://www.instagram.com/alimartintv/", "https://www.linkedin.com/in/alison-martin-1a684522/"]
+}
+</script>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%231E2130'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='28' fill='%23ECE9E5' text-anchor='middle'%3EAM%3C/text%3E%3C/svg%3E">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..600;1,6..72,200..600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --greige:#ECE9E5; --ink:#1E2130; --blush:#EDB7B3; --greige-2:#E2DDD6; --ink-soft:#3A3F55;
+    --serif:'Newsreader',Georgia,serif; --sans:'DM Sans',system-ui,sans-serif;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  html{scroll-behavior:smooth;overflow-x:clip}
+  body{
+    background:var(--greige); color:var(--ink); font-family:var(--sans);font-weight:300;
+    -webkit-font-smoothing:antialiased; overflow-x:hidden;
+  }
+  ::selection{background:var(--blush);color:var(--ink)}
+  img{display:block;max-width:100%}
+  a{color:inherit}
+
+  /* ---------- nav ---------- */
+  .nav{
+    position:fixed;top:0;left:0;right:0;z-index:60;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:20px max(clamp(20px,4.5vw,60px), calc((100% - 1220px) / 2));
+    transition:background .4s ease,box-shadow .4s ease,padding .4s ease;
+  }
+  .nav.open{background:var(--greige);box-shadow:0 1px 0 rgba(30,33,48,.1)}
+  .nav.scrolled{background:rgba(236,233,229,.93);backdrop-filter:blur(12px);box-shadow:0 1px 0 rgba(30,33,48,.1);padding-top:14px;padding-bottom:14px}
+  .nav .logo{font-family:var(--serif);font-size:21px;font-weight:500;text-decoration:none;letter-spacing:.01em}
+  .nav ul{display:flex;gap:clamp(16px,2.6vw,36px);list-style:none;align-items:center}
+  .nav a.link{
+    text-decoration:none;font-size:13px;font-weight:400;letter-spacing:.08em;position:relative;padding-bottom:3px;
+  }
+  .nav a.link::after{
+    content:"";position:absolute;left:0;bottom:0;height:1px;width:100%;background:var(--ink);
+    transform:scaleX(0);transform-origin:right;transition:transform .4s cubic-bezier(.2,.65,.25,1);
+  }
+  .nav a.link:hover::after{transform:scaleX(1);transform-origin:left}
+  .nav a.cta{
+    text-decoration:none;font-size:13px;font-weight:400;letter-spacing:.06em;
+    background:var(--ink);color:var(--greige);border-radius:999px;
+    display:inline-flex;align-items:center;height:40px;padding:0 24px;line-height:1;
+    transition:background .3s ease,transform .3s ease;
+  }
+  .nav a.cta:hover{background:var(--ink-soft);transform:translateY(-1px)}
+  /* phone menu */
+  .nav li.menu-li{display:none}
+  .menu-btn{
+    width:40px;height:40px;border-radius:50%;border:1px solid rgba(30,33,48,.45);background:transparent;color:var(--ink);
+    display:grid;place-items:center;cursor:pointer;padding:0;
+  }
+  .menu-btn svg{display:block}
+  .menu-btn path{transition:transform .3s ease;transform-box:fill-box;transform-origin:center}
+  .nav.open .menu-btn path:first-child{transform:translateY(4px) rotate(45deg)}
+  .nav.open .menu-btn path:last-child{transform:translateY(-4px) rotate(-45deg)}
+  .mobile-menu{
+    display:none;position:absolute;top:100%;left:0;right:0;
+    background:var(--greige);box-shadow:0 18px 30px rgba(30,33,48,.12);
+    padding:4px clamp(20px,4.5vw,60px) 14px;
+  }
+  .mobile-menu a{
+    display:block;font-family:var(--serif);font-weight:300;font-size:26px;text-decoration:none;
+    padding:16px 0;border-top:1px solid rgba(30,33,48,.14);
+  }
+  @media (max-width:760px){
+    .nav ul li.hide-m{display:none}
+    .nav li.menu-li{display:block}
+    .nav ul{gap:10px}
+    .nav a.cta{padding:0 20px}
+    .nav.open .mobile-menu{display:block}
+  }
+
+  /* ---------- hero ---------- */
+  .hero{
+    min-height:100svh;max-width:1340px;margin:0 auto;
+    display:grid;grid-template-columns:1.15fr .85fr;gap:clamp(30px,5vw,80px);
+    align-items:start;align-content:center;
+    padding:120px clamp(20px,4.5vw,60px) 60px;
+  }
+  .hero-text{padding-top:clamp(6px,2.2vh,28px)}
+  .hero .social{margin-top:clamp(28px,4.5vh,44px);display:flex;gap:10px}
+  .hero .social a{
+    width:40px;height:40px;border-radius:50%;border:1px solid rgba(30,33,48,.45);color:var(--ink);
+    display:grid;place-items:center;
+    transition:background .3s ease,color .3s ease,border-color .3s ease,transform .3s ease;
+  }
+  .hero .social a:hover{background:var(--ink);border-color:var(--ink);color:var(--greige);transform:translateY(-2px)}
+  .hero .social svg{display:block}
+  .hero h1{
+    font-family:var(--serif);font-weight:300;
+    font-size:clamp(33px,5vw,70px);line-height:1.24;letter-spacing:-.01em;
+  }
+  .hero h1 span{display:block}
+  @media (min-width:1100px){
+    .hero{grid-template-columns:1.25fr .75fr}
+    .hero h1{font-size:clamp(56px,5.5vw,76px)}
+  }
+  .hero h1 em{font-style:italic;font-weight:400;color:var(--ink-soft)}
+  .hero .lede{
+    margin-top:32px;font-size:clamp(16px,1.45vw,19px);line-height:1.7;max-width:46ch;color:var(--ink-soft);
+  }
+  .hero .actions{margin-top:38px;display:flex;gap:16px;flex-wrap:wrap;align-items:center}
+  .hero .actions .primary{
+    text-decoration:none;background:var(--ink);color:var(--greige);font-size:14px;letter-spacing:.04em;
+    padding:15px 30px;border-radius:999px;transition:background .3s ease,transform .3s ease;
+  }
+  .hero .actions .primary:hover{background:var(--ink-soft);transform:translateY(-2px)}
+  .hero .actions .secondary{
+    text-decoration:none;letter-spacing:.04em;border-bottom:1px solid var(--ink);padding-bottom:3px;
+    font-style:italic;font-family:var(--serif);font-size:16px;
+  }
+  .hero-visual{position:relative;margin-bottom:calc(44px + clamp(14px,1.8vw,24px))}
+  .hero-visual .blush{
+    position:absolute;inset:0 0 -44px 0;background:var(--blush);border-radius:18px;z-index:0;
+    transform:translate(clamp(14px,1.8vw,24px),clamp(14px,1.8vw,24px));
+  }
+  .hero-visual .frame{
+    position:relative;z-index:1;overflow:hidden;border-radius:18px;
+  }
+  .hero-visual img{width:100%;height:112%;object-fit:cover;will-change:transform}
+  .hero-visual figcaption{
+    position:absolute;z-index:1;top:100%;left:clamp(14px,1.8vw,24px);right:0;
+    height:calc(44px + clamp(14px,1.8vw,24px));
+    display:flex;flex-direction:column;justify-content:center;align-items:flex-start;gap:3px;
+    padding:0 22px;
+    font-size:10.5px;letter-spacing:.16em;line-height:1.5;text-transform:uppercase;color:var(--ink);
+  }
+  .hero-visual figcaption .ph{opacity:.75}
+  @media (max-width:880px){
+    .hero{grid-template-columns:1fr;padding-top:110px}
+    .hero-text{padding-top:0}
+    .hero-visual{max-width:360px}
+  }
+
+  /* ---------- stats ---------- */
+  .stats{border-top:1px solid rgba(30,33,48,.18);background:var(--greige)}
+  .stats .inner{
+    max-width:1340px;margin:0 auto;display:grid;grid-template-columns:repeat(4,1fr);
+    padding:0 clamp(20px,4.5vw,60px);
+  }
+  .stat{padding:clamp(26px,4vh,44px) clamp(10px,2vw,30px);border-left:1px solid rgba(30,33,48,.18)}
+  .stat:first-child{border-left:none;padding-left:0}
+  .stat .v{font-family:var(--serif);font-weight:300;font-size:clamp(34px,4.6vw,64px);line-height:1}
+  .stat .v i{font-style:italic;color:var(--blush);-webkit-text-stroke:.5px var(--ink)}
+  .stat .l{margin-top:10px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);line-height:1.6}
+  @media (max-width:800px){
+    .stats .inner{grid-template-columns:1fr 1fr}
+    .stat:nth-child(3){border-left:none;padding-left:0}
+    .stat{border-top:1px solid rgba(30,33,48,.12)}
+    .stat:nth-child(-n+2){border-top:none}
+  }
+
+  /* ---------- ticker ---------- */
+  .ticker{
+    background:var(--ink);color:var(--greige);overflow:hidden;white-space:nowrap;
+    padding:15px 0;
+  }
+  .ticker .track{display:inline-flex;will-change:transform}
+  .ticker span{
+    font-size:12.5px;letter-spacing:.26em;text-transform:uppercase;padding:0 26px;
+    display:inline-flex;align-items:center;gap:26px;
+  }
+  .ticker .dot{width:7px;height:7px;border-radius:50%;background:var(--blush);display:inline-block}
+
+  /* ---------- trusted by ---------- */
+  .trusted{border-bottom:1px solid rgba(30,33,48,.18);background:var(--greige)}
+  .trusted p{
+    max-width:1340px;margin:0 auto;padding:24px clamp(20px,4.5vw,60px);
+    display:flex;flex-wrap:wrap;align-items:baseline;gap:10px 20px;justify-content:center;
+  }
+  .trusted .lab{font-size:11.5px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-soft)}
+  .trusted .names{
+    display:inline-flex;flex-wrap:wrap;gap:10px 16px;justify-content:center;
+    font-size:13.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink);font-weight:500;
+  }
+  .trusted .names i{font-style:normal;color:var(--blush)}
+
+  /* ---------- approach ---------- */
+  .approach{max-width:1340px;margin:0 auto;padding:clamp(90px,14vh,170px) clamp(20px,4.5vw,60px)}
+  .approach .head{margin-bottom:clamp(40px,7vh,80px)}
+  .approach .k{display:block;font-size:12px;letter-spacing:.28em;text-transform:uppercase;font-weight:400;margin-bottom:22px}
+  .approach h2{
+    font-family:var(--serif);font-weight:300;font-size:clamp(30px,3.7vw,52px);line-height:1.16;letter-spacing:-.008em;
+  }
+  .approach h2 em{font-style:italic;display:block}
+  .prin{display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(24px,3.5vw,54px)}
+  .p-item{border-top:1px solid var(--ink);padding-top:24px;position:relative}
+  .p-item .line{position:absolute;top:-1px;left:0;height:1px;width:100%;background:var(--ink);transform-origin:left}
+  .p-item .n{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft)}
+  .p-item h3{font-family:var(--serif);font-weight:400;font-size:clamp(22px,2vw,28px);margin:14px 0 12px}
+  .p-item p{font-size:14.5px;line-height:1.75;color:var(--ink-soft)}
+  @media (max-width:800px){
+    .approach h2 em{display:inline}
+    .prin{grid-template-columns:1fr}
+  }
+
+  /* ---------- services ---------- */
+  .services{background:var(--ink);color:var(--greige);padding:clamp(90px,14vh,170px) clamp(20px,4.5vw,60px)}
+  .services .inner{max-width:1220px;margin:0 auto}
+  .services .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--blush);margin-bottom:22px}
+  .services h2{font-family:var(--serif);font-weight:300;font-size:clamp(32px,4.4vw,60px);line-height:1.1;max-width:20ch}
+  .services h2 em{font-style:italic;color:var(--blush);white-space:nowrap}
+  .svc-list{margin-top:clamp(40px,7vh,70px)}
+  .svc{
+    display:grid;grid-template-columns:auto 1fr auto auto;gap:clamp(16px,3vw,50px);align-items:center;
+    padding:clamp(22px,3.4vh,32px) 0;border-top:1px solid rgba(236,233,229,.22);text-decoration:none;
+  }
+  .svc:last-child{border-bottom:1px solid rgba(236,233,229,.22)}
+  .svc .n{font-family:var(--serif);font-style:italic;font-size:15px;color:rgba(236,233,229,.6);width:2.4em}
+  .svc .t{font-family:var(--serif);font-weight:300;font-size:clamp(26px,3.4vw,46px);letter-spacing:-.005em;transition:transform .4s cubic-bezier(.2,.65,.25,1)}
+  .svc:hover .t{transform:translateX(14px);font-style:italic;color:var(--blush)}
+  .svc .d{font-size:13px;color:rgba(236,233,229,.65);max-width:30ch;line-height:1.6;text-align:right}
+  .svc .a{color:var(--blush);display:inline-flex;align-items:center;transition:transform .35s ease}
+  .svc .a svg{display:block}
+  .svc:hover .a{transform:translateX(8px)}
+  .services .domains{
+    margin-top:36px;font-family:var(--serif);font-style:italic;font-size:clamp(16px,1.7vw,20px);color:rgba(236,233,229,.8);
+  }
+  @media (max-width:760px){ .svc .d{display:none} }
+
+  /* ---------- work (six-card grid) ---------- */
+  .work{max-width:1340px;margin:0 auto;padding:clamp(90px,14vh,170px) clamp(20px,4.5vw,60px)}
+  .work .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:22px}
+  .work h2{font-family:var(--serif);font-weight:300;font-size:clamp(32px,4.4vw,60px);letter-spacing:-.008em}
+  .work h2 em{font-style:italic}
+  .work-grid{
+    margin-top:clamp(40px,7vh,70px);display:grid;grid-template-columns:repeat(3,1fr);gap:clamp(18px,2.6vw,36px);
+  }
+  .card{
+    background:#fff;border-radius:16px;overflow:hidden;text-decoration:none;
+    box-shadow:0 1px 0 rgba(30,33,48,.08);
+    transition:transform .45s cubic-bezier(.2,.65,.25,1),box-shadow .45s cubic-bezier(.2,.65,.25,1);
+  }
+  .card:hover{transform:translateY(-6px);box-shadow:0 22px 44px rgba(30,33,48,.14)}
+  .card figure{overflow:hidden;aspect-ratio:4/3;background:var(--greige-2)}
+  .card img{width:100%;height:100%;object-fit:cover;transition:transform .8s cubic-bezier(.2,.65,.25,1);will-change:transform}
+  .card:hover img{transform:scale(1.05)}
+  .card .body{padding:20px 22px 24px}
+  .card .tag{
+    display:inline-block;font-size:10.5px;font-weight:500;letter-spacing:.16em;text-transform:uppercase;
+    color:var(--ink-soft);border:1px solid rgba(30,33,48,.25);padding:4px 11px;border-radius:999px;margin-bottom:14px;
+  }
+  .card h3{font-family:var(--serif);font-weight:400;font-size:clamp(18px,1.7vw,22px);line-height:1.25}
+  .card p{font-size:13px;margin-top:8px;color:var(--ink-soft);line-height:1.65}
+  .card .credit{display:block;margin-top:14px;font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft)}
+  @media (max-width:960px){ .work-grid{grid-template-columns:1fr 1fr} }
+  @media (max-width:600px){ .work-grid{grid-template-columns:1fr} }
+  .work .more{
+    margin-top:clamp(36px,6vh,60px);padding-top:26px;border-top:1px solid rgba(30,33,48,.18);
+    font-size:14.5px;line-height:1.85;color:var(--ink-soft);max-width:80ch;
+  }
+  .work .more b{font-weight:500;color:var(--ink)}
+
+  /* ---------- testimonials (quote wall) ---------- */
+  .testi{background:var(--ink);color:var(--greige);padding:clamp(90px,14vh,170px) clamp(20px,4.5vw,60px)}
+  .testi .inner{max-width:1220px;margin:0 auto}
+  .testi .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--blush);margin-bottom:clamp(40px,7vh,70px)}
+  .t-wall{columns:2;column-gap:clamp(24px,3vw,44px)}
+  .t-item{
+    break-inside:avoid;margin-bottom:clamp(24px,3vw,44px);
+    border-top:1px solid rgba(236,233,229,.25);padding-top:22px;
+  }
+  .t-item blockquote{
+    font-family:var(--serif);font-weight:300;font-size:clamp(18px,1.9vw,24px);line-height:1.42;letter-spacing:-.003em;
+  }
+  .t-item.lead blockquote{font-size:clamp(22px,2.6vw,32px);line-height:1.36}
+  .t-item blockquote em{font-style:italic;color:var(--blush)}
+  .t-item cite{
+    display:block;margin-top:16px;font-style:normal;font-size:11px;letter-spacing:.22em;text-transform:uppercase;color:rgba(236,233,229,.65);
+  }
+  .t-item cite b{color:var(--greige);font-weight:500}
+  /* Phones show one column. Phil Perry tops the right-hand column on desktop, so lift him to third here. */
+  @media (max-width:800px){
+    .t-wall{columns:1;display:flex;flex-direction:column}
+    .t-item{order:2}
+    .t-item:nth-child(-n+2){order:0}
+    .t-item.t-up{order:1}
+  }
+
+  /* ---------- about ---------- */
+  .about{max-width:1340px;margin:0 auto;padding:clamp(90px,14vh,170px) clamp(20px,4.5vw,60px)}
+  .about .grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:clamp(30px,5.5vw,90px)}
+  .about .photo{position:sticky;top:120px;align-self:start}
+  .about .photo .frame{overflow:hidden;border-radius:18px}
+  .about .photo img{width:100%;height:108%;object-fit:cover;will-change:transform}
+  .about .photo figcaption{margin-top:14px;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;color:var(--ink-soft)}
+  .about .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:22px}
+  .about h2{font-family:var(--serif);font-weight:300;font-size:clamp(30px,4vw,54px);line-height:1.12;letter-spacing:-.008em;margin-bottom:28px}
+  .about h2 em{font-style:italic}
+  .about p{font-size:15.5px;line-height:1.85;color:var(--ink-soft);margin-bottom:18px;max-width:60ch}
+  .about p b{font-weight:500;color:var(--ink)}
+  .tl{margin-top:36px;border-top:1px solid rgba(30,33,48,.2)}
+  .tl-row{
+    display:grid;grid-template-columns:120px 1fr;gap:clamp(14px,3vw,40px);
+    padding:16px 0;border-bottom:1px solid rgba(30,33,48,.2);font-size:14px;line-height:1.65;
+  }
+  .tl-row .when{font-family:var(--serif);font-style:italic;color:var(--ink-soft);font-size:15px}
+  @media (max-width:880px){ .about .grid{grid-template-columns:1fr} .about .photo{position:relative;top:0;max-width:340px} }
+
+  /* ---------- voice ---------- */
+  .voice{background:var(--greige-2);padding:clamp(90px,13vh,150px) clamp(20px,4.5vw,60px)}
+  .voice .inner{max-width:1220px;margin:0 auto;display:grid;grid-template-columns:1fr 1fr;gap:clamp(30px,5vw,90px);align-items:center}
+  .voice .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:20px}
+  .voice h2{font-family:var(--serif);font-weight:300;font-size:clamp(30px,3.8vw,52px);line-height:1.12}
+  .voice h2 em{font-style:italic}
+  .voice p{font-size:15px;line-height:1.8;color:var(--ink-soft);margin-top:18px;max-width:48ch}
+  .player{
+    background:var(--ink);color:var(--greige);padding:clamp(24px,3.2vw,38px);border-radius:20px;
+    display:flex;flex-direction:column;gap:18px;
+  }
+  .player .row{display:flex;align-items:center;gap:18px}
+  .player button{
+    width:62px;height:62px;border-radius:50%;border:none;background:var(--blush);color:var(--ink);
+    cursor:pointer;flex:0 0 auto;transition:transform .3s ease;
+    display:grid;place-items:center;
+  }
+  .player button svg{display:block;grid-area:1/1}
+  .player button svg.off{display:none}
+  .player button:hover{transform:scale(1.06)}
+  .player .title{font-family:var(--serif);font-size:20px;font-weight:400}
+  .player .sub{font-size:11px;letter-spacing:.2em;text-transform:uppercase;color:var(--blush);margin-top:4px}
+  .player .bar{height:4px;background:rgba(236,233,229,.25);border-radius:99px;cursor:pointer;position:relative}
+  .player .fill{position:absolute;left:0;top:0;bottom:0;width:0%;background:var(--blush);border-radius:99px}
+  .player .times{display:flex;justify-content:space-between;font-size:11px;letter-spacing:.1em;color:rgba(236,233,229,.75)}
+  .voice .facil{margin-top:28px;padding-top:24px;border-top:1px solid rgba(30,33,48,.2)}
+  .voice .facil h3{font-family:var(--serif);font-weight:400;font-size:22px;margin-bottom:10px}
+  .voice .facil p{font-size:14px;margin-top:0}
+  @media (max-width:880px){ .voice .inner{grid-template-columns:1fr} }
+
+  /* ---------- cta ---------- */
+  .cta{background:var(--blush);padding:clamp(90px,13vh,160px) clamp(20px,4.5vw,60px)}
+  .cta .inner{
+    max-width:1220px;margin:0 auto;display:grid;grid-template-columns:.95fr 1.05fr;
+    gap:clamp(40px,6.5vw,100px);align-items:center;
+  }
+  .cta-visual{position:relative;margin-bottom:calc(40px + clamp(12px,1.6vw,20px))}
+  .cta-visual .block{
+    position:absolute;inset:0 0 -40px 0;background:var(--greige);border-radius:18px;z-index:0;
+    transform:translate(clamp(12px,1.6vw,20px),clamp(12px,1.6vw,20px));
+  }
+  .cta-visual .frame{position:relative;z-index:1;overflow:hidden;border-radius:18px;aspect-ratio:3/2;background:var(--greige-2)}
+  .cta-visual img{width:100%;height:100%;object-fit:cover}
+  .cta-visual figcaption{
+    position:absolute;z-index:1;top:100%;left:clamp(12px,1.6vw,20px);right:0;
+    height:calc(40px + clamp(12px,1.6vw,20px));
+    display:flex;align-items:center;padding:0 22px;
+    font-size:10.5px;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-soft);
+  }
+  .cta .k{font-size:12px;letter-spacing:.28em;text-transform:uppercase;margin-bottom:24px}
+  .cta h2{
+    font-family:var(--serif);font-weight:300;font-size:clamp(38px,5.2vw,78px);line-height:1.04;letter-spacing:-.01em;
+    max-width:12ch;
+  }
+  @media (max-width:880px){
+    .cta .inner{grid-template-columns:1fr}
+    .cta-visual{width:100%;max-width:520px;margin-left:auto;margin-right:auto}
+    .cta-text{text-align:center}
+    .cta h2{margin:0 auto}
+  }
+  .cta h2 em{font-style:italic}
+  .cta .mail{
+    display:inline-block;margin-top:44px;text-decoration:none;background:var(--ink);color:var(--greige);
+    font-size:15px;letter-spacing:.04em;padding:18px 38px;border-radius:999px;
+    transition:transform .3s ease,background .3s ease;
+  }
+  .cta .mail:hover{transform:translateY(-3px);background:var(--ink-soft)}
+  .cta .hint{margin-top:20px;font-family:var(--serif);font-style:italic;font-size:16.5px;color:var(--ink-soft)}
+  .cta .avail{margin-top:30px;font-size:11px;letter-spacing:.3em;text-transform:uppercase;color:var(--ink-soft)}
+  .cta .social{margin-top:26px;display:flex;gap:12px}
+  .cta .social a{
+    width:46px;height:46px;border-radius:50%;border:1px solid var(--ink);color:var(--ink);
+    display:grid;place-items:center;
+    transition:background .3s ease,color .3s ease,transform .3s ease;
+  }
+  .cta .social a:hover{background:var(--ink);color:var(--greige);transform:translateY(-3px)}
+  .cta .social svg{display:block}
+  @media (max-width:880px){ .cta .social{justify-content:center} }
+
+  footer{
+    /* Height matches the back-to-top button's zone, so the button sits centred in the footer
+       with equal space above and below; right padding keeps the text clear of it on narrow screens. */
+    background:var(--greige);
+    padding:calc(clamp(18px,3vw,34px) + 14px) max(clamp(20px,4.5vw,60px), calc((100% - 1220px) / 2));
+    padding-right:max(clamp(20px,4.5vw,60px), calc((100% - 1220px) / 2), calc(clamp(18px,3vw,34px) + 64px));
+    display:flex;justify-content:space-between;align-items:center;gap:4px 12px;flex-wrap:wrap;
+    font-size:12px;line-height:20px;letter-spacing:.1em;color:var(--ink-soft);
+  }
+
+  /* ---------- one scale across sections ---------- */
+  /* section headings */
+  .approach h2,.services h2,.work h2,.about h2,.voice h2{
+    font-size:clamp(30px,3.9vw,54px);line-height:1.14;letter-spacing:-.008em;
+  }
+  /* sub-headings */
+  .p-item h3,.card h3,.voice .facil h3{font-size:clamp(20px,1.75vw,24px);line-height:1.25}
+  /* body text */
+  .p-item p,.about p,.voice p,.voice .facil p,.work .more,.tl-row{font-size:15px;line-height:1.75}
+  /* small text */
+  .card p,.svc .d{font-size:13px;line-height:1.65}
+  /* spacing: section padding, label to heading, heading to content */
+  .voice,section.cta{padding-top:clamp(90px,14vh,170px);padding-bottom:clamp(90px,14vh,170px)}
+  .approach .k,.services .k,.work .k,.about .k,.voice .k,section.cta .k{margin-bottom:22px}
+  .approach .head{margin-bottom:clamp(40px,7vh,70px)}
+
+  /* visible outline for keyboard users */
+  a:focus-visible,button:focus-visible{outline:2px solid var(--ink);outline-offset:3px}
+  .services a:focus-visible,.testi button:focus-visible,.player button:focus-visible{outline-color:var(--blush)}
+
+  /* phones: first six cards and quotes, the rest behind a button */
+  .show-all{display:none}
+  @media (max-width:600px){
+    .work-grid:not(.all) .card:nth-child(n+7),
+    .t-wall:not(.all) .t-item:nth-child(n+7){display:none}
+    .show-all{
+      display:block;margin:28px auto 0;background:transparent;border:1px solid var(--ink);color:var(--ink);
+      font-family:var(--sans);font-size:13px;letter-spacing:.08em;padding:14px 28px;border-radius:999px;cursor:pointer;
+    }
+    .show-all.light{border-color:rgba(236,233,229,.55);color:var(--greige);margin-top:6px}
+    .show-all[hidden]{display:none}
+  }
+
+  /* ---------- back to top ---------- */
+  .totop{
+    position:fixed;right:clamp(18px,3vw,34px);bottom:clamp(18px,3vw,34px);z-index:70;
+    width:48px;height:48px;border-radius:50%;border:none;cursor:pointer;
+    background:var(--ink);color:var(--greige);
+    display:grid;place-items:center;
+    box-shadow:0 10px 26px rgba(30,33,48,.28);
+    opacity:0;transform:translateY(14px);pointer-events:none;
+    transition:opacity .35s ease,transform .35s ease,background .3s ease,color .3s ease;
+  }
+  .totop svg{display:block}
+  .totop.show{opacity:1;transform:none;pointer-events:auto}
+  .totop:hover{background:var(--blush);color:var(--ink);transform:translateY(-3px)}
+  @media (prefers-reduced-motion:reduce){ .totop{transition:none} }
+
+  .rv{opacity:0;transform:translateY(28px)}
+  @media (prefers-reduced-motion:reduce){
+    .rv{opacity:1!important;transform:none!important}
+    *{animation:none!important;transition:none!important}
+  }
+</style>
+</head>
+<body>
+
+<nav class="nav" id="nav">
+  <a class="logo" href="#top">Alison Martin</a>
+  <ul>
+    <li class="hide-m"><a class="link" href="#approach">Approach</a></li>
+    <li class="hide-m"><a class="link" href="#work">Work</a></li>
+    <li class="hide-m"><a class="link" href="#about">About</a></li>
+    <li><a class="cta" href="#book">Book Alison</a></li>
+    <li class="menu-li">
+      <button class="menu-btn" id="menu-btn" type="button" aria-label="Open menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M4 8h16"/><path d="M4 16h16"/></svg>
+      </button>
+    </li>
+  </ul>
+  <div class="mobile-menu" id="mobile-menu">
+    <a href="#approach">Approach</a>
+    <a href="#work">Work</a>
+    <a href="#voices">Testimonials</a>
+    <a href="#about">About</a>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header class="hero" id="top">
+  <div class="hero-text">
+    <h1 class="rv"><span>Celebrity interviewer.</span><span>Literary host.</span><span>Event moderator.</span></h1>
+    <p class="lede rv">After thirty years producing some of the biggest names in television, Alison Martin knows how to get the best live performance from any guest — and how to bring an audience along for the ride.</p>
+    <div class="actions rv">
+      <a class="primary" href="#book">Book Alison</a>
+      <a class="secondary" href="#work">See recent conversations</a>
+    </div>
+    <div class="social rv">
+      <a href="https://www.instagram.com/alimartintv/" target="_blank" rel="noopener me" aria-label="Alison Martin on Instagram" title="Instagram">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>
+      </a>
+      <a href="https://www.linkedin.com/in/alison-martin-1a684522/" target="_blank" rel="noopener me" aria-label="Alison Martin on LinkedIn" title="LinkedIn">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8.5a5.5 5.5 0 0 1 5.5 5.5v6.5h-4V14a1.5 1.5 0 0 0-3 0v6.5h-4V14A5.5 5.5 0 0 1 16 8.5z"/><rect x="2.5" y="9.5" width="4" height="11"/><circle cx="4.5" cy="4.5" r="2"/></svg>
+      </a>
+    </div>
+  </div>
+  <figure class="hero-visual rv">
+    <div class="blush" data-blush></div>
+    <div class="frame"><img src="assets/img/portrait-yard-lean.jpg" width="427" height="640" fetchpriority="high" data-plx="12"  alt="Alison Martin, resident interviewer at The Yard"></div>
+    <figcaption>
+      <span>Resident interviewer at The Yard</span>
+      <span class="ph">Photograph — @hesterphoto</span>
+    </figcaption>
+  </figure>
+</header>
+
+<!-- STATS -->
+<section class="stats">
+  <div class="inner">
+    <div class="stat rv"><div class="v"><span data-count="30">0</span><i>+</i></div><div class="l">Years in broadcast TV</div></div>
+    <div class="stat rv"><div class="v"><span data-count="3">0</span></div><div class="l">National awards</div></div>
+    <div class="stat rv"><div class="v"><span data-count="5">0</span></div><div class="l">Areas of expertise</div></div>
+    <div class="stat rv"><div class="v"><span data-count="2">0</span></div><div class="l">Books edited</div></div>
+  </div>
+</section>
+
+<!-- TICKER -->
+<div class="ticker" aria-hidden="true">
+  <div class="track" data-marquee>
+    <span>Curious conversations <i class="dot"></i> Confident interviews <i class="dot"></i> Literary <i class="dot"></i> Business <i class="dot"></i> Science <i class="dot"></i> Politics <i class="dot"></i> Popular culture <i class="dot"></i></span>
+    <span>Curious conversations <i class="dot"></i> Confident interviews <i class="dot"></i> Literary <i class="dot"></i> Business <i class="dot"></i> Science <i class="dot"></i> Politics <i class="dot"></i> Popular culture <i class="dot"></i></span>
+  </div>
+</div>
+
+<!-- TRUSTED BY -->
+<section class="trusted" aria-label="Clients and festivals">
+  <p class="rv">
+    <span class="lab">Trusted by</span>
+    <span class="names">BBC<i>·</i>Royal Television Society<i>·</i>Salisbury Cathedral<i>·</i>The Yard<i>·</i>Isle of Wight Literary Festival</span>
+  </p>
+</section>
+
+<!-- APPROACH -->
+<section class="approach" id="approach">
+  <div class="head">
+    <span class="k rv">The approach</span>
+    <h2 class="rv">Creating conversations that matter <em>and evenings people remember.</em></h2>
+  </div>
+  <div class="prin">
+    <div class="p-item rv">
+      <span class="line"></span>
+      <span class="n">i.</span>
+      <h3>Meticulous preparation</h3>
+      <p>Every book read, every brief absorbed. Thirty years of production discipline applied to a single evening — so nothing is left to chance.</p>
+    </div>
+    <div class="p-item rv">
+      <span class="line"></span>
+      <span class="n">ii.</span>
+      <h3>Personal connection</h3>
+      <p>A space where interviewees can show their true self. Guests relax; audiences feel it; the conversation opens up.</p>
+    </div>
+    <div class="p-item rv">
+      <span class="line"></span>
+      <span class="n">iii.</span>
+      <h3>Present in the moment</h3>
+      <p>Alison dances in the moment with her guests — steering deftly, hearing every voice, and bringing the audience along for the ride.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services">
+  <div class="inner">
+    <p class="k rv">Trusted conversations, grounded in respect</p>
+    <h2 class="rv">Four ways to put Alison <em>on your stage.</em></h2>
+    <div class="svc-list">
+      <a class="svc rv" href="#book">
+        <span class="n">i.</span><span class="t">Interview authors</span>
+        <span class="d">Literary events where the book — and the person — breathe.</span><span class="a"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 5.5 19.5 12 13 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="svc rv" href="#book">
+        <span class="n">ii.</span><span class="t">Moderate festivals</span>
+        <span class="d">From the Isle of Wight Literary Festival to Salisbury Cathedral.</span><span class="a"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 5.5 19.5 12 13 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="svc rv" href="#book">
+        <span class="n">iii.</span><span class="t">Chair conferences</span>
+        <span class="d">Every voice heard — calm, even at the eleventh hour.</span><span class="a"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 5.5 19.5 12 13 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+      <a class="svc rv" href="#book">
+        <span class="n">iv.</span><span class="t">Host events</span>
+        <span class="d">Launches, showcases and live debates with real warmth.</span><span class="a"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 5.5 19.5 12 13 18.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+      </a>
+    </div>
+    <p class="domains rv">Literary — Business — Science — Politics — Popular Culture</p>
+  </div>
+</section>
+
+<!-- WORK -->
+<section class="work" id="work">
+  <p class="k rv">Between us</p>
+  <h2 class="rv">Selected <em>conversations.</em></h2>
+  <div class="work-grid">
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-morpurgos.jpg" srcset="assets/img/stage-morpurgos-800.jpg 800w, assets/img/stage-morpurgos.jpg 1600w" sizes="(max-width:600px) 92vw, (max-width:960px) 46vw, 31vw" width="1600" height="1067" loading="lazy" decoding="async"  style="object-position:60% 50%" alt="Alison Martin on stage in conversation with Michael and Clare Morpurgo"></figure>
+      <div class="body"><span class="tag">Book interview</span><h3>Michael and Clare Morpurgo — Down Burrow Lane</h3><p>A story of life and love. Farms for City Children over fifty years.</p><span class="credit">Photograph — @hesterphoto</span></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/with-graham-bell.jpg" srcset="assets/img/with-graham-bell-800.jpg 533w, assets/img/with-graham-bell.jpg 1067w" sizes="(max-width:600px) 92vw, (max-width:960px) 46vw, 31vw" width="1067" height="1600" loading="lazy" decoding="async"  style="object-position:50% 3%" alt="Alison Martin with Graham Bell"></figure>
+      <div class="body"><span class="tag">Brand launch</span><h3>Graham Bell</h3><p>Ski stories alongside the Snow Finel season launch.</p><span class="credit">Photograph — Ben Hargreaves</span></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/with-alexandra-tolstoy.jpg" srcset="assets/img/with-alexandra-tolstoy-800.jpg 800w, assets/img/with-alexandra-tolstoy.jpg 1600w" sizes="(max-width:600px) 92vw, (max-width:960px) 46vw, 31vw" width="1600" height="1200" loading="lazy" decoding="async" alt="Alison Martin with Alexandra Tolstoy in front of a projected still from Beyond The Silk Road"></figure>
+      <div class="body"><span class="tag">Documentary showcase</span><h3>Alexandra Tolstoy</h3><p>Beyond The Silk Road.</p></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-lederer-wide.jpg" width="640" height="427" loading="lazy" decoding="async"  alt="Alison Martin interviewing Helen Lederer on stage"></figure>
+      <div class="body"><span class="tag">Book interview</span><h3>Helen Lederer — Not That I’m Bitter</h3><p>An evening of hosting, fun — and wine.</p><span class="credit">Photograph — @hesterphoto</span></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-lewington-seated.jpg" width="640" height="427" loading="lazy" decoding="async"  alt="Alison Martin with Lara Lewington at the Hacking Humanity event"></figure>
+      <div class="body"><span class="tag">Book interview</span><h3>Lara Lewington — Hacking Humanity</h3><p>How technology can save your health — and your life.</p><span class="credit">Photograph — @hesterphoto</span></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-noah-kim.jpg" width="640" height="427" loading="lazy" decoding="async"  alt="Alison Martin hosting pianist Noah Inada Kim's showcase"></figure>
+      <div class="body"><span class="tag">Event showcase</span><h3>Noah Inada Kim — NIK Classical</h3><p>Instagram sensation with half a million followers worldwide.</p></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-perry-audience.jpg" width="480" height="640" loading="lazy" decoding="async"  alt="Alison Martin on stage with Alex Perry at the Blood Will Flow event"></figure>
+      <div class="body"><span class="tag">Book interview</span><h3>Alex Perry — Blood Will Flow</h3><p>Steering things deftly for a very smart, engaged crowd.</p></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/stage-hickson-trio.jpg" width="539" height="480" loading="lazy" decoding="async"  alt="Alison Martin hosting Mandy and Craig Hickson's book launch"></figure>
+      <div class="body"><span class="tag">Launch host</span><h3>An Officer and Her Gentleman</h3><p>Book launch with Mandy &amp; Craig Hickson.</p></div>
+    </a>
+    <a class="card rv" href="#book">
+      <figure><img src="assets/img/panel-bbc-cathedral.jpg" width="640" height="480" loading="lazy" decoding="async"  alt="BBC Wiltshire panel at Salisbury Cathedral with Alison Martin"></figure>
+      <div class="body"><span class="tag">Live panel</span><h3>What Has Feminism Done for You?</h3><p>Salisbury Conversations with the BBC, at Salisbury Cathedral.</p></div>
+    </a>
+  </div>
+  <button class="show-all" type="button" data-show-all=".work-grid">Show all conversations</button>
+  <p class="more rv">Also: <b>Dan Snow</b> in conversation for the <b>Royal Television Society</b> · <b>Paul Goldstein — Nine Lives</b> · live soapbox <b>election debates</b> around the country for The Independent.</p>
+</section>
+
+<!-- TESTIMONIALS -->
+<section class="testi" id="voices">
+  <div class="inner">
+    <p class="k rv">What clients and guests say</p>
+    <div class="t-wall">
+      <div class="t-item lead rv">
+        <blockquote>“The tone had the right blend of <em>gravity and levity</em>; a great deal of ground was covered; all participated equally, and all voices were heard. Courtesy prevailed throughout, but not at the expense of tackling controversial topics. It was an engrossing evening.”</blockquote>
+        <cite><b>The Very Revd Nicholas Papadopulos</b> — Dean of Salisbury</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“Alison Martin hosted an event with ex-Olympic skier Graham Bell x Snow Finel at The Yard in October 2026 and it was a roaring success. Ali is a wonderful interviewer, immediately putting the talent at ease and pulling out amazing stories. Graham particularly said he really enjoyed working with her. She also managed to weave in brand messages for Snow Finel <em>without compromising the authenticity of the interview</em>. All in all, a highly successful evening for everyone!”</blockquote>
+        <cite><b>Lara Dunn</b> — Snow Finel</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“Thank you so much — <em>I really enjoyed it</em>.”</blockquote>
+        <cite><b>Alexandra Tolstoy</b> — Beyond The Silk Road</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“Thanks so much for having me — it was such a fun evening with <em>the fantastic Alison Martin</em>.”</blockquote>
+        <cite><b>Lara Lewington</b> — Broadcaster &amp; author, Hacking Humanity</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“Thank you so much for a wonderful event — hosting, fun, and wine! Most appreciated, and such a great venue and spirit. <em>I loved it.</em>”</blockquote>
+        <cite><b>Helen Lederer</b> — Comedian &amp; author</cite>
+      </div>
+      <div class="t-item t-up rv">
+        <blockquote>“It was such a great conversation, <em>you handled it brilliantly</em> and made it all so easy… thank you for taking such care over the event.”</blockquote>
+        <cite><b>Phil Perry</b> — Michael Morpurgo PR</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“The whole evening was <em>a blast</em> — it was a pleasure from start to finish. Thank you for all of your help shaping the evening.”</blockquote>
+        <cite><b>Noah Inada Kim</b> — NIK Classical</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“That was a delight: bit of curry, lot of chatter, a few images and some pretty happy patrons — <em>I can’t remember such an interested audience</em>.”</blockquote>
+        <cite><b>Paul Goldstein</b> — Wildlife photographer &amp; author</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“Alison was great at <em>steering things so deftly</em> — and a very smart and engaged crowd.”</blockquote>
+        <cite><b>Alex Perry</b> — Author, Blood Will Flow</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“A great host as always — <em>loved working with you</em>.”</blockquote>
+        <cite><b>Mandy Hickson</b> — RAF fast-jet pilot &amp; author</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“A humungous thank-you for all that you did last night. For all of the preparation — <em>you did a wonderful job.</em>”</blockquote>
+        <cite><b>Craig Hickson</b> — An Officer and Her Gentleman</cite>
+      </div>
+      <div class="t-item rv">
+        <blockquote>“You handled last night so <em>calmly and confidently</em> — parachuted in at the eleventh hour, and no-one would have known.”</blockquote>
+        <cite><b>Marie Thomas</b> — Salisbury Conversations</cite>
+      </div>
+    </div>
+    <button class="show-all light" type="button" data-show-all=".t-wall">Show all testimonials</button>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+  <div class="grid">
+    <figure class="photo rv">
+      <div class="frame"><img src="assets/img/portrait-yard-vertical.jpg" width="427" height="640" loading="lazy" decoding="async" data-plx="10"  alt="Alison Martin at The Yard"></div>
+      <figcaption>Photograph — @hesterphoto</figcaption>
+    </figure>
+    <div>
+      <p class="k rv">About Alison</p>
+      <h2 class="rv">Three decades <em>behind</em> the camera. Now the seat faces the audience.</h2>
+      <p class="rv">Ali started out at <b>BBC Radio Four</b> features, then won a place on the coveted <b>ITN trainee scheme</b>. She began her career as a TV reporter and researcher in news and current affairs, presenting youth, politics and topical programmes for ITV — then moved behind the camera to produce and direct documentaries and popular series.</p>
+      <p class="rv">Big career moments? Covering <b>9/11</b> for ITV, presenting live on <b>the day Princess Diana died</b>, running with the bulls in <b>Pamplona</b> and exposing how marijuana is grown wild in the New Zealand bush for <b>Rough Guides</b>.</p>
+      <div class="tl">
+        <div class="tl-row rv"><span class="when">Credits</span><span>Dispatches · Rough Guides · Watchdog · Rogue Traders · Paul O’Grady: For the Love of Dogs · Katie Price: My Crazy Life · X-Ray · How D’ya Get So Rich · Real Rescues · BBC South Today</span></div>
+        <div class="tl-row rv"><span class="when">Created</span><span>The Martin Lewis Money Show — ITV</span></div>
+        <div class="tl-row rv"><span class="when">Launched</span><span>The One Show — founding team, BBC</span></div>
+        <div class="tl-row rv"><span class="when">Awards</span><span>Harold Wincott Award · Best Docu-Soap, National Reality TV Awards · Favourite Factual Show, TV Times Awards</span></div>
+        <div class="tl-row rv"><span class="when">Edited</span><span>“Brothers in Arms” — David Beresford · “An Officer Not a Gentleman” — Mandy Hickson</span></div>
+        <div class="tl-row rv"><span class="when">Now</span><span>Resident interviewer, The Yard · Trustee, Citizens Advice</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- VOICE -->
+<section class="voice">
+  <div class="inner">
+    <div>
+      <p class="k rv">Beyond the stage</p>
+      <h2 class="rv">A voice you already <em>know.</em></h2>
+      <p class="rv">Ali has voiced many TV series, inserts and promos — once described as a “good value Davina McCall”.</p>
+      <div class="facil rv">
+        <h3>Creative facilitation</h3>
+        <p>Trained in solution-based creative facilitation at the BBC — gathering every viewpoint in the room to build new strategy, find different perspectives, and inject dynamism into a team’s approach to change.</p>
+      </div>
+    </div>
+    <div class="player rv" data-player>
+      <div class="row">
+        <button type="button" aria-label="Play voiceover showreel" data-play>
+          <svg data-ic-play width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><path d="M8.5 5.4v13.2c0 .8.9 1.3 1.6.9l10.3-6.6c.6-.4.6-1.4 0-1.8L10.1 4.5c-.7-.4-1.6.1-1.6.9z" fill="currentColor"/></svg>
+          <svg data-ic-pause class="off" width="26" height="26" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="5" width="3.6" height="14" rx="1.2" fill="currentColor"/><rect x="13.9" y="5" width="3.6" height="14" rx="1.2" fill="currentColor"/></svg>
+        </button>
+        <div>
+          <div class="title">Voiceover Showreel</div>
+          <div class="sub">Press play — sound up</div>
+        </div>
+      </div>
+      <div class="bar" data-bar><div class="fill" data-fill></div></div>
+      <div class="times"><span data-cur>0:00</span><span data-dur>–:––</span></div>
+      <audio src="assets/audio/vo-reel.mp3" preload="metadata" data-audio></audio>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta" id="book">
+  <div class="inner">
+    <figure class="cta-visual rv">
+      <div class="block"></div>
+      <div class="frame"><img src="assets/img/portrait-yard-closeup.jpg" srcset="assets/img/portrait-yard-closeup-800.jpg 800w, assets/img/portrait-yard-closeup.jpg 1600w" sizes="(max-width:880px) 92vw, 45vw" width="1600" height="1067" loading="lazy" decoding="async" alt="Alison Martin"></div>
+      <figcaption>Photograph — @hesterphoto</figcaption>
+    </figure>
+    <div class="cta-text">
+      <p class="k rv">Festivals · conferences · launches · live events</p>
+      <h2 class="rv">Let’s start <em>the conversation.</em></h2>
+      <a class="mail rv" href="mailto:alison@alison-martin.com">alison@alison-martin.com</a>
+      <p class="hint rv">Include your date, venue and format for a fast reply.</p>
+      <p class="avail rv">Available UK-wide &amp; internationally</p>
+      <div class="social rv">
+        <a href="https://www.instagram.com/alimartintv/" target="_blank" rel="noopener me" aria-label="Alison Martin on Instagram" title="Instagram">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r=".6" fill="currentColor"/></svg>
+        </a>
+        <a href="https://www.linkedin.com/in/alison-martin-1a684522/" target="_blank" rel="noopener me" aria-label="Alison Martin on LinkedIn" title="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 8.5a5.5 5.5 0 0 1 5.5 5.5v6.5h-4V14a1.5 1.5 0 0 0-3 0v6.5h-4V14A5.5 5.5 0 0 1 16 8.5z"/><rect x="2.5" y="9.5" width="4" height="11"/><circle cx="4.5" cy="4.5" r="2"/></svg>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <span>© <span id="yr">2026</span> Alison Martin</span>
+  <span>Celebrity interviewer · literary host · event moderator</span>
+</footer>
+
+<button class="totop" id="totop" aria-label="Back to top" title="Back to top">
+  <svg width="18" height="18" viewBox="0 0 18 18" fill="none" aria-hidden="true">
+    <path d="M9 15.5V3M9 3L3.6 8.4M9 3l5.4 5.4" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</button>
+
+<!-- Vercel Web Analytics (cookieless) -->
+<script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
+<script defer src="/_vercel/insights/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script>
+(() => {
+  const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  const nav = document.getElementById('nav');
+  addEventListener('scroll', () => nav.classList.toggle('scrolled', scrollY > 40), {passive:true});
+
+  document.getElementById('yr').textContent = new Date().getFullYear();
+
+  /* phone menu */
+  const menuBtn = document.getElementById('menu-btn');
+  const setMenu = (open) => {
+    nav.classList.toggle('open', open);
+    menuBtn.setAttribute('aria-expanded', String(open));
+    menuBtn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+  };
+  menuBtn.addEventListener('click', () => setMenu(!nav.classList.contains('open')));
+  document.querySelectorAll('#mobile-menu a').forEach(a => a.addEventListener('click', () => setMenu(false)));
+  addEventListener('keydown', (e) => { if (e.key === 'Escape') setMenu(false); });
+  matchMedia('(min-width:761px)').addEventListener('change', (e) => { if (e.matches) setMenu(false); });
+
+  /* phones: reveal the cards and quotes held back behind "Show all" */
+  document.querySelectorAll('[data-show-all]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const group = document.querySelector(btn.dataset.showAll);
+      group.classList.add('all');
+      btn.hidden = true;
+      const items = group.querySelectorAll('.rv');
+      if (window.gsap && window.ScrollTrigger && !reduced) {
+        ScrollTrigger.refresh();
+        gsap.to(items, {opacity:1, y:0, duration:.7, ease:'power3.out', overwrite:true});
+      } else {
+        items.forEach(el => { el.style.opacity = 1; el.style.transform = 'none'; });
+      }
+    });
+  });
+
+  /* back to top */
+  const totop = document.getElementById('totop');
+  addEventListener('scroll', () => totop.classList.toggle('show', scrollY > innerHeight * 0.9), {passive:true});
+  totop.addEventListener('click', () => {
+    scrollTo({top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+  });
+
+  /* audio player */
+  const wrap = document.querySelector('[data-player]');
+  if (wrap) {
+    const audio = wrap.querySelector('[data-audio]');
+    const btn = wrap.querySelector('[data-play]');
+    const bar = wrap.querySelector('[data-bar]');
+    const fill = wrap.querySelector('[data-fill]');
+    const cur = wrap.querySelector('[data-cur]');
+    const dur = wrap.querySelector('[data-dur]');
+    const fmt = (s) => isFinite(s) ? Math.floor(s/60) + ':' + String(Math.floor(s%60)).padStart(2,'0') : '–:––';
+    audio.addEventListener('loadedmetadata', () => dur.textContent = fmt(audio.duration));
+    btn.addEventListener('click', () => audio.paused ? audio.play() : audio.pause());
+    const icPlay = btn.querySelector('[data-ic-play]');
+    const icPause = btn.querySelector('[data-ic-pause]');
+    const setIcon = (playing) => { icPlay.classList.toggle('off', playing); icPause.classList.toggle('off', !playing); };
+    audio.addEventListener('play', () => setIcon(true));
+    audio.addEventListener('pause', () => setIcon(false));
+    audio.addEventListener('timeupdate', () => {
+      fill.style.width = (audio.currentTime / audio.duration * 100 || 0) + '%';
+      cur.textContent = fmt(audio.currentTime);
+    });
+    bar.addEventListener('click', (e) => {
+      const r = bar.getBoundingClientRect();
+      audio.currentTime = ((e.clientX - r.left) / r.width) * audio.duration;
+    });
+  }
+
+  if (reduced || !window.gsap) {
+    document.querySelectorAll('.rv').forEach(el => { el.style.opacity = 1; el.style.transform = 'none'; });
+    return;
+  }
+  gsap.registerPlugin(ScrollTrigger);
+
+  document.querySelectorAll('.rv').forEach(el => {
+    gsap.to(el, {opacity:1, y:0, duration:1.05, ease:'power3.out',
+      scrollTrigger:{trigger:el, start:'top 88%'}});
+  });
+
+  /* parallax */
+  document.querySelectorAll('[data-plx]').forEach(img => {
+    const amt = parseFloat(img.dataset.plx) || 10;
+    gsap.fromTo(img, {yPercent:-amt/2}, {yPercent:amt/2, ease:'none',
+      scrollTrigger:{trigger:img.closest('.frame,figure'), start:'top bottom', end:'bottom top', scrub:true}});
+  });
+
+  /* ticker */
+  gsap.to('[data-marquee]', {xPercent:-50, ease:'none', duration:22, repeat:-1});
+
+  /* principle rules draw in */
+  gsap.utils.toArray('.p-item .line').forEach(line => {
+    gsap.from(line, {scaleX:0, duration:1.2, ease:'power3.inOut',
+      scrollTrigger:{trigger:line.parentElement, start:'top 85%'}});
+  });
+
+  /* count-ups */
+  document.querySelectorAll('[data-count]').forEach(el => {
+    const target = parseInt(el.dataset.count, 10);
+    const obj = {v:0};
+    gsap.to(obj, {v:target, duration:1.5, ease:'power2.out',
+      scrollTrigger:{trigger:el, start:'top 90%'},
+      onUpdate:() => el.textContent = Math.round(obj.v)});
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/",
+      "has": [{ "type": "host", "value": "www.alison-martin.com" }],
+      "destination": "https://alison-martin.com/",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [{ "type": "host", "value": "www.alison-martin.com" }],
+      "destination": "https://alison-martin.com/:path*",
+      "permanent": true
+    }
+  ]
+}
